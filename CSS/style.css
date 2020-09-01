@@ -23,8 +23,7 @@
 }
 
 
-/* Hero Grid */
-
+/* Hero*
 .heroImage {
     background-image:url(../images/home_image.PNG);
     height:800px;
@@ -32,17 +31,34 @@
     background-position:right;
     background-repeat:no-repeat;
     background-size:cover;
+}*/
 
+.heroContainer {
+    display:flex;
 }
 
 .heroText {
-    padding:0px 500px 10px 85px;
-    margin:0px 100px 10px 7px;
+    float:left;
+    padding:0px 100px 0px 85px;
+    margin:0px -100px 0px 7px;
 }
+
+.heroImageContainer {
+    float:right;
+}
+
+.heroImage {
+    float:right;
+    height:400px;
+    width:auto;
+    margin:0px 100px 0px -50px;
+}
+
 
 h1 {
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size:55px;
+    margin:0px 0px 10px 0px;
 }
 
 .heroBox {
@@ -56,6 +72,7 @@ h2{
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size:15px;
     font:black;
+    margin:30px 0px 15px 65px;
 }
 
 #title {
@@ -94,7 +111,7 @@ h3{
 }
 
 .ctaGridArea button {
-    margin:0 auto;
+    margin:0px 50px 0px 95px;
     border-radius:8px;
     background-color:#373737;
     padding:7px 30px;
@@ -116,8 +133,7 @@ h3{
     background-color:#D3D1DA;
 }
 
-/* Footer */
-
+/* Footer 
 footer {
     margin: 0px 5%;
 }
@@ -130,4 +146,41 @@ footer {
 .right-side{
     width:50%;
     float:right;
+}*/
+
+footer {
+    margin: 0px 5%;
+}
+
+.footerArea {
+    margin:35px 0px 0px 0px;
+}
+
+.left-side{
+    width:50%;
+    float:left;
+    margin:0px 0px 0px 35px;
+}
+
+.left-side p {
+    margin:0px;
+    font-size:15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.right-side{
+    float:right;
+    margin-right:35px;
+    text-align:right;
+}
+
+.right-side p{
+    margin:0px;
+    font-size:15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+a {
+    text-decoration:none;
+    color:black;
 }
