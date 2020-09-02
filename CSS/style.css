@@ -23,15 +23,7 @@
 }
 
 
-/* Hero*
-.heroImage {
-    background-image:url(../images/home_image.PNG);
-    height:800px;
-    width:auto;
-    background-position:right;
-    background-repeat:no-repeat;
-    background-size:cover;
-}*/
+/* Hero*/
 
 .heroContainer {
     display:flex;
